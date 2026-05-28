@@ -71,7 +71,7 @@ flowchart LR
 - `accounts_server.py` wraps that logic as MCP tools and resources.
 - `accounts_client.py` shows how to connect to the server, list tools, call tools, and read resources.
 - `database.py` persists accounts, logs, and market data in SQLite.
-- `2_lab2.ipynb` demonstrates MCP usage from an OpenAI Agents SDK workflow.
+- `MCPServer.ipynb` demonstrates MCP usage from an OpenAI Agents SDK workflow.
 
 ---
 
