@@ -45,11 +45,11 @@ In this repository, the host is an agent workflow using the OpenAI Agents SDK, t
 
 ```mermaid
 flowchart LR
-    U[User Request] --> H[Host Application / Agent]
-    H --> C[MCP Client]
-    C -->|stdio| S[Custom MCP Server]
-    S --> B[Account Business Logic\n(CrewAI-generated foundation)]
-    B --> D[(SQLite Database)]
+    U["User Request"] --> H["Host Application / Agent"]
+    H --> C["MCP Client"]
+    C -->|stdio| S["Custom MCP Server"]
+    S --> B["Account Business Logic<br/>(CrewAI-generated foundation)"]
+    B --> D[("SQLite Database")]
 ```
 
 ---
