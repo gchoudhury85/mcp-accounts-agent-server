@@ -171,7 +171,7 @@ async with MCPServerStdio(params=params, client_session_timeout_seconds=30) as m
     with trace("account_manager"):
         result = await Runner.run(
             agent,
-            "My name is Ed and my account is under the name Ed. What's my balance and holdings?"
+            "My name is Gaurav and my account is under the name Gaurav. What's my balance and holdings?"
         )
 ```
 
