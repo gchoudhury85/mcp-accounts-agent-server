@@ -62,7 +62,7 @@ flowchart LR
 ├── accounts_server.py     # Custom MCP server exposing tools/resources
 ├── accounts_client.py     # Manual MCP client for tool/resource access
 ├── database.py            # SQLite persistence layer
-└── 2_lab2.ipynb           # Notebook showing agent + MCP usage
+└── MCPServer.ipynb           # Notebook showing agent + MCP usage
 ```
 
 ### File responsibilities
